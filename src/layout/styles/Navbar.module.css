@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100%;
+  background-color: deepskyblue;
+}
+
+.container a {
+  font-size: 1.3em;
+  font-family: "Open Sans";
+  color: white;
+  text-decoration: none;
+  margin: 0.5em;
+}

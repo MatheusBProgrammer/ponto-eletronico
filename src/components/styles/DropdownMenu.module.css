@@ -1,0 +1,39 @@
+/* src/components/DropdownMenu/DropdownMenu.module.css */
+.dropdown {
+  height: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.button {
+  background-color: deepskyblue;
+  font-size: 0.5em;
+  color: white; /* White text color */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.dropdownContent {
+  font-size: 1em;
+  position: absolute;
+  top: 3em; /* Absolute positioning relative to its parent */
+  background-color: deepskyblue; /* Light grey background */
+  z-index: 1; /* Ensure it appears on top of other content */
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  box-shadow: 0px 0px 10px 0px gray;
+}
+
+.dropdownItem {
+  color: black; /* Text color for dropdown items */
+  padding: 12px 16px; /* Padding for the dropdown items */
+  text-decoration: none; /* No underline on links */
+  display: block; /* Display as block for proper spacing */
+}
+
+.dropdownItem:hover {
+  background-color: #f1f1f1; /* Light grey background on hover */
+  color: black;
+  border-radius: 10px;
+}
